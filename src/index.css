@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+
+.box {
+  width: 150px;
+  height: 150px;
+  border-radius: 1em;
+  background-color: #f9f07e;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.magic {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dotted {
+  @apply bg-slate-200;
+  background-image: radial-gradient(rgb(136, 136, 136) 1px, transparent 0);
+  background-size: 40px 50px;
+  background-position: -100px 0; 
+  animation: waveGrid 10s linear infinite;
+}
+
+@keyframes waveGrid {
+  0% {
+    background-position: -100px 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
+    background-size: 40px 50px;
+  }
+  25% {
+    background-position: 0 0, -100px 0, 0 0, 0 0, 0 0, 0 0, 0 0;
+    background-size: 50px 60px;
+  }
+  50% {
+    background-position: 0 0, 0 0, -100px 0, 0 0, 0 0, 0 0, 0 0;
+    background-size: 60px 70px;
+  }
+  75% {
+    background-position: 0 0, -100px,0 0 , 00, 0 0, 0 0, 0 0;
+    background-size: 50px 60px;
+  }
+  100% {
+    background-position: -100px, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
+    background-size: 40px 50px;
+  }
+}
