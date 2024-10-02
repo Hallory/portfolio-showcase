@@ -2,7 +2,7 @@
   "name": "green-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hallory.github.io/my-portfolio/",
+  "homepage": "https://hallory.github.io/portfolio-showcase",
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "@emailjs/browser": "^3.11.0",
