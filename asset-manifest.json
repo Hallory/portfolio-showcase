@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.b994f45a.css",
+    "main.js": "/my-portfolio/static/js/main.30bb3ec1.js",
+    "static/media/protfolio_example.png": "/my-portfolio/static/media/protfolio_example.d1c060c0c21edc781da6.png",
+    "static/media/anime2.jpg": "/my-portfolio/static/media/anime2.1736c74e3e61d967d0d3.jpg",
+    "static/media/anime3.jpg": "/my-portfolio/static/media/anime3.c87366d7399ab994b0fe.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.b994f45a.css.map": "/my-portfolio/static/css/main.b994f45a.css.map",
+    "main.30bb3ec1.js.map": "/my-portfolio/static/js/main.30bb3ec1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b994f45a.css",
+    "static/js/main.30bb3ec1.js"
+  ]
+}
